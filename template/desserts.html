@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}desserts | {% endblock title %}
+{% block body %}
+<style>
+  body{
+    background-image: url('/static/icecream.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }</style>
+<div class="container my-4">
+<table class="table" style="color:white;">
+  <thead>
+    <tr>
+      <th scope="col">ITEM NO</th>
+      <th scope="col">NAME</th>
+      <th scope="col">PRICE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pastery</td>
+      <td>50</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Icecream</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Cold drinks</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Gulab jamun</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Rasmalai</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Fruit Custard</td>
+      <td>70</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+{% endblock body %}

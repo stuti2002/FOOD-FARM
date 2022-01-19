@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}snacks | {% endblock title %}
+{% block body %}
+<style>
+  body {
+    background-image: url('/static/snacks1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  </style>
+<div class="container my-4">
+<table class="table" style="font-weight: bold;color: white;">
+  <thead>
+    <tr>
+      <th scope="col">item no.</th>
+      <th scope="col">NAME</th>
+      <th scope="col">PRICE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>tea/cofee</td>
+      <td>20</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Burger</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Fried Momos</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Chowmein</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Pasta</td>
+      <td>60</td>
+
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Pav bhaji</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Pizza</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>samosa</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Veg Roll</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Jalebi</td>
+      <td>80</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+ {% endblock body %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>Order page</h1>
+<div class="container">
+    <form method="POST" action="">
+        {% csrf_token %}
+        
+        {{order.as_p}}
+        <input type="submit">
+
+    </form>
+</div>
+
+{% endblock body %} 
